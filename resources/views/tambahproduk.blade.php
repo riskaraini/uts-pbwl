@@ -3,46 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Tambah Produk</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-    <div class="col-sm-6">
-        <h4>Form Mahasiswa</h4>
-        <form action="" method="GET">
-        <div class="row">
-            <div class="col-sm-6">
-                <div class="label">NPM</div>
-                <input type="number" name="npm" class="form-control" placeholder="Input NPM">
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary mb-4">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">UTS Laravel</a>
+  </div>
+</nav>
+
+<div class="container">
+    <h3>Form Tambah Produk</h3>
+    <form action="" method="GET" class="mt-3">
+
+        <div class="row mb-3">
+            <div class="col-sm-4">
+                <label class="form-label">Kode Produk</label>
+                <input type="text" name="kode" class="form-control" placeholder="Input Kode Produk">
             </div>
-            <div class="col-sm-6">
-            <div class="label">Nama Mahasiswa</div>
-            <input type="text" name="nama_mahasiswa"  class="form-control" placeholder="Input Nama Mahasiswa">
-        </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-6">
-                <div class="label">Tanggal Lahir</div>
-                <input type="date" name="tgl_lahir" class="form-control">
+            <div class="col-sm-4">
+                <label class="form-label">Nama Produk</label>
+                <input type="text" name="nama" class="form-control" placeholder="Input Nama Produk">
             </div>
-            <div class="col-sm-6">
-                <label for="">Prodi</label>
-                <select name="prodi" class="form-control">
-                    <option value="">Sistem Informasi</option>
-                    <option value="">Teknik Informatika</option>
-                    <option value="">Data Sains</option>
+            <div class="col-sm-4">
+                <label class="form-label">Jenis Produk</label>
+                <select name="jenis" class="form-control">
                 </select>
             </div>
         </div>
-        <div class="row mt-2">
-            <div class="col-sm-12">
-            <div class="form-group">
-                 <button class="btn btn-primary" style="width: 100%" type="submit">Simpan</button>
-            </div>
-            </div>
-        </div>
-</form>
+
+        <div class="row mb-3">
+    <div class="col-sm-6">
+        <label class="form-label">Harga</label>
+        <input type="number" name="harga" class="form-control" placeholder="Input Harga">
+    </div>
+    <div class="col-sm-6 d-flex align-items-end">
+        <button type="submit" class="btn btn-success w-100">Simpan</button>
+    </div>
 </div>
+
+    </form>
 </div>
+
 </body>
 </html>
