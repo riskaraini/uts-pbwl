@@ -11,7 +11,15 @@
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">UTS Laravel</a>
-    <div class="container" style="margin-left: 30px"><h1>Halaman Home</h1></div>
+  </div>
+</nav>
+
+<div class="container mt-3">
+
+    <div class="d-flex justify-content-between align-items-center">
+        <h3>Halaman Home</h3>
+</nav>
+
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
