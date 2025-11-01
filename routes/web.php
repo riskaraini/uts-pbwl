@@ -10,9 +10,14 @@ Route::get('/home', function () {
     return view('home');
 });
 
+Route::get('/tambahproduk', function () {
+    return view('tambahproduk');
+});
+
+
 Route::get('/produk', function () {
-    $npm = [123,124,125,126];
-    $nama = ['Rai','Ray','Ria','Riska'];
-    $jumlah = count ($npm);
-    return view('produk' ,compact('npm','jumlah','nama'));
+    $kode = ['BRG001','BRG002'];
+    $nama = ['Pena','Buku'];
+    $harga = ['20000','15000'];
+        return view('produk' ,compact('kode','harga','nama'));
 });
