@@ -29,7 +29,11 @@
             </div>
             <div class="col-sm-4">
                 <label class="form-label">Jenis Produk</label>
-                <select name="jenis" class="form-control">
+                <select name="jenis" class="form-control" placeholder="Pilih Produk">
+                    <option value="">Pilih Produk</option>
+                    <option value="">Alat Tulis</option>
+                    <option value="">Elektronik</option>
+                    <option value="">Sembako</option>
                 </select>
             </div>
         </div>
